@@ -1,6 +1,5 @@
 package org.pilus.pojos;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,6 +12,7 @@ import org.bson.types.ObjectId;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class PruebaPOJO {
     @BsonProperty(value="_id")@BsonId
     private String id;

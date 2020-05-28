@@ -1,12 +1,14 @@
 package org.pilus;
 
-import org.springframework.context.annotation.Configuration;
+import org.pilus.controller.Controller;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.pilus.service.DBConnection;
+import org.springframework.beans.factory.annotation.Autowired;
 
+public class App {
 
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+	public static void main(String[] args) {
+
+		new Controller().getByID();
+	}
 }
