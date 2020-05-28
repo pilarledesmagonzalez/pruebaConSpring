@@ -14,7 +14,6 @@ import org.bson.types.ObjectId;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PruebaPOJO {
-//asdasd
     @BsonProperty(value="_id")@BsonId
     private String id;
     @BsonProperty(value="name")
